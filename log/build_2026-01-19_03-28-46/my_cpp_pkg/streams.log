@@ -1,0 +1,52 @@
+[0.009s] Invoking command in '/home/wan/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wan/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.032s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.194s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.219s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.226s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.236s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.299s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.301s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.349s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.403s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.516s] -- Configuring done (0.5s)
+[0.542s] -- Generating done (0.0s)
+[0.550s] -- Build files have been written to: /home/wan/ros2_ws/build/my_cpp_pkg
+[0.580s] [  6%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[0.584s] [ 31%] Built target robot_news_station
+[0.584s] [ 31%] Built target cpp_node
+[0.584s] [ 43%] Built target number_publisher
+[0.584s] [ 56%] Built target smartphone
+[0.585s] [ 68%] Built target add_two_ints_server
+[0.586s] [ 87%] Built target number_counter
+[0.586s] [ 93%] Built target add_two_ints_client_no_oop
+[3.029s] [100%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[3.142s] [100%] Built target add_two_ints_client
+[3.150s] Invoked command in '/home/wan/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wan/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[3.156s] Invoking command in '/home/wan/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wan/ros2_ws/build/my_cpp_pkg
+[3.161s] -- Install configuration: ""
+[3.161s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[3.162s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[3.162s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[3.162s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[3.162s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[3.162s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[3.162s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[3.162s] -- Installing: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[3.163s] -- Set non-toolchain portion of runtime path of "/home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client" to ""
+[3.163s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[3.163s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[3.163s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[3.163s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[3.163s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[3.163s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[3.163s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[3.163s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[3.164s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[3.164s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[3.164s] -- Installing: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[3.164s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[3.164s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[3.164s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[3.164s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[3.165s] Invoked command in '/home/wan/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wan/ros2_ws/build/my_cpp_pkg

@@ -1,0 +1,57 @@
+[0.010s] Invoking command in '/home/wan/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wan/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/wan/ros2_ws/install/my_cpp_pkg
+[0.128s] -- The C compiler identification is GNU 13.3.0
+[0.213s] -- The CXX compiler identification is GNU 13.3.0
+[0.228s] -- Detecting C compiler ABI info
+[0.293s] -- Detecting C compiler ABI info - done
+[0.300s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.300s] -- Detecting C compile features
+[0.301s] -- Detecting C compile features - done
+[0.309s] -- Detecting CXX compiler ABI info
+[0.375s] -- Detecting CXX compiler ABI info - done
+[0.381s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.381s] -- Detecting CXX compile features
+[0.382s] -- Detecting CXX compile features - done
+[0.396s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.496s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.589s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.632s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.643s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.659s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.675s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.747s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.750s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.815s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.830s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.846s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.918s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.033s] -- Configuring done (1.0s)
+[1.036s] [31mCMake Error at CMakeLists.txt:22 (add_executable):
+[1.036s]   Cannot find source file:
+[1.036s] 
+[1.036s]     src/number_publisher.cpp
+[1.036s] 
+[1.037s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.037s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.037s]   .f95 .f03 .hip .ispc
+[1.037s] 
+[1.037s] [0m
+[1.037s] [31mCMake Error at CMakeLists.txt:25 (add_executable):
+[1.037s]   Cannot find source file:
+[1.037s] 
+[1.037s]     src/number_counter.cpp
+[1.037s] 
+[1.037s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.037s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.037s]   .f95 .f03 .hip .ispc
+[1.037s] 
+[1.037s] [0m
+[1.038s] [31mCMake Error at CMakeLists.txt:22 (add_executable):
+[1.038s]   No SOURCES given to target: number_publisher
+[1.038s] 
+[1.038s] [0m
+[1.038s] [31mCMake Error at CMakeLists.txt:25 (add_executable):
+[1.038s]   No SOURCES given to target: number_counter
+[1.038s] 
+[1.038s] [0m
+[1.038s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.045s] Invoked command in '/home/wan/ros2_ws/build/my_cpp_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wan/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/wan/ros2_ws/install/my_cpp_pkg

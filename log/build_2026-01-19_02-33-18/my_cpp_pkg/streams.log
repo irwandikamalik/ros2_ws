@@ -1,0 +1,67 @@
+[0.011s] Invoking command in '/home/wan/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wan/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.054s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.220s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.250s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.258s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.269s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.281s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.337s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.339s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.391s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.452s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.563s] -- Configuring done (0.5s)
+[0.590s] -- Generating done (0.0s)
+[0.597s] -- Build files have been written to: /home/wan/ros2_ws/build/my_cpp_pkg
+[0.625s] [  8%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[0.631s] [ 75%] Built target robot_news_station
+[0.631s] [ 75%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[0.631s] [ 75%] Built target smartphone
+[0.631s] [ 83%] Built target cpp_node
+[0.631s] [ 83%] Built target add_two_ints_server
+[2.188s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.188s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[2.188s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[2.188s]                  from [01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:1[m[K:
+[2.188s] [01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid NumberCounterNode::[01;32m[KcallbackNumber[m[K(example_interfaces::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.188s] [01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:19:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kexample_interfaces::msg::Int64_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.188s]    19 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"%d"[m[K, [32m[Kmsg->data[m[K);
+[2.188s]       |                                       [01;35m[K^~~~[m[K  [32m[K~~~~~~~~~[m[K
+[2.188s]       |                                                  [32m[K|[m[K
+[2.188s]       |                                                  [32m[Kexample_interfaces::msg::Int64_<std::allocator<void> >::_data_type {aka long int}[m[K
+[2.188s] [01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:19:41:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.188s]    19 |       RCLCPP_INFO(this->get_logger(), "[01;36m[K%d[m[K", msg->data);
+[2.189s]       |                                        [01;36m[K~^[m[K
+[2.189s]       |                                         [01;36m[K|[m[K
+[2.189s]       |                                         [01;36m[Kint[m[K
+[2.189s]       |                                        [32m[K%ld[m[K
+[3.698s] [ 91%] [32m[1mLinking CXX executable number_publisher[0m
+[3.847s] [ 91%] Built target number_publisher
+[5.891s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[6.074s] [100%] Built target number_counter
+[6.081s] Invoked command in '/home/wan/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wan/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[6.088s] Invoking command in '/home/wan/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wan/ros2_ws/build/my_cpp_pkg
+[6.093s] -- Install configuration: ""
+[6.093s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[6.093s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[6.093s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[6.094s] -- Installing: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[6.094s] -- Set non-toolchain portion of runtime path of "/home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""
+[6.095s] -- Installing: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[6.097s] -- Set non-toolchain portion of runtime path of "/home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""
+[6.097s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[6.097s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[6.097s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[6.097s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[6.097s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[6.097s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[6.097s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[6.097s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[6.097s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[6.097s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[6.097s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[6.098s] -- Installing: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[6.098s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[6.098s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[6.098s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[6.098s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[6.099s] Invoked command in '/home/wan/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wan/ros2_ws/build/my_cpp_pkg

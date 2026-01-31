@@ -1,0 +1,11 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:1[m[K:
+[01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsClientNode::[01;32m[KcallbackCallAddTwoInts[m[K(rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedFuture)[m[K’:
+[01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:34:60:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope
+   34 |       RCLCPP_INFO(this->get_logger(), "%d + %d = %d", (int)[01;31m[Krequest[m[K->a, (int)request->b, (int)response->sum);
+      |                                                            [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/add_two_ints_client.dir/build.make:76: CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/add_two_ints_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,4 @@
+[01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/led_panel.cpp:[m[K In member function ‘[01m[Kvoid LedPanelNode::[01;32m[KcallbackSetLed[m[K(my_robot_interfaces::srv::SetLed_Request_<std::allocator<void> >::SharedPtr, my_robot_interfaces::srv::SetLed_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/led_panel.cpp:37:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} and ‘[01m[Kstd::vector<long int, std::allocator<long int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   37 |       if ([01;35m[Kled_number_ >= led_states_.size()[m[K || led_number_ < 0) {
+      |           [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K

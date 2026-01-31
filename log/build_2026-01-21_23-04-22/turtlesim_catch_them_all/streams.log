@@ -1,0 +1,18 @@
+[0.535s] Invoking command in '/home/wan/ros2_ws/build/turtlesim_catch_them_all': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wan/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wan/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wan/ros2_ws/build/turtlesim_catch_them_all/build --no-deps symlink_data
+[0.751s] running develop
+[0.883s] running egg_info
+[0.895s] writing turtlesim_catch_them_all.egg-info/PKG-INFO
+[0.896s] writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt
+[0.896s] writing entry points to turtlesim_catch_them_all.egg-info/entry_points.txt
+[0.896s] writing requirements to turtlesim_catch_them_all.egg-info/requires.txt
+[0.896s] writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt
+[0.923s] reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.924s] writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.937s] running build_ext
+[0.937s] Creating /home/wan/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages/turtlesim-catch-them-all.egg-link (link to .)
+[0.938s] Installing turtle_controller script to /home/wan/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[0.938s] Installing turtle_spawner script to /home/wan/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[0.938s] 
+[0.938s] Installed /home/wan/ros2_ws/build/turtlesim_catch_them_all
+[0.938s] running symlink_data
+[0.963s] Invoked command in '/home/wan/ros2_ws/build/turtlesim_catch_them_all' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wan/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wan/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wan/ros2_ws/build/turtlesim_catch_them_all/build --no-deps symlink_data

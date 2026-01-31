@@ -1,0 +1,29 @@
+[0.536s] Invoking command in '/home/wan/ros2_ws/build/my_py_pkg': CMAKE_PREFIX_PATH=/home/wan/ros2_ws/install/my_robot_interfaces:/home/wan/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wan/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/wan/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/wan/ros2_ws/build/my_py_pkg:/home/wan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wan/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force
+[0.749s] running develop
+[0.877s] running egg_info
+[0.890s] writing my_py_pkg.egg-info/PKG-INFO
+[0.891s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.891s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.891s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.891s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.918s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.919s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.933s] running build_ext
+[0.933s] Creating /home/wan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[0.933s] Installing add_two_ints_client script to /home/wan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.933s] Installing add_two_ints_client_no_oop script to /home/wan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.933s] Installing add_two_ints_server script to /home/wan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.933s] Installing battery script to /home/wan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.933s] Installing hardware_status_publisher script to /home/wan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.933s] Installing led_panel script to /home/wan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.933s] Installing my_first_node script to /home/wan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.933s] Installing number_counter script to /home/wan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.934s] Installing number_publisher script to /home/wan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.934s] Installing robot_news_station script to /home/wan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.934s] Installing smartphone script to /home/wan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.934s] 
+[0.934s] Installed /home/wan/ros2_ws/build/my_py_pkg
+[0.934s] running symlink_data
+[0.934s] symbolically linking /home/wan/ros2_ws/build/my_py_pkg/resource/my_py_pkg -> /home/wan/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.934s] symbolically linking /home/wan/ros2_ws/build/my_py_pkg/package.xml -> /home/wan/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[0.958s] Invoked command in '/home/wan/ros2_ws/build/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/wan/ros2_ws/install/my_robot_interfaces:/home/wan/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wan/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/wan/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/wan/ros2_ws/build/my_py_pkg:/home/wan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wan/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force

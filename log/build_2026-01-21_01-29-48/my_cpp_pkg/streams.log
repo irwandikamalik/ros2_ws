@@ -1,0 +1,59 @@
+[0.010s] Invoking command in '/home/wan/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/wan/ros2_ws/install/my_robot_interfaces:/home/wan/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wan/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/wan/ros2_ws/build/my_py_pkg:/home/wan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/wan/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.033s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.200s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.229s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.238s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.261s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.316s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.318s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.372s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.438s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.482s] -- Found my_robot_interfaces: 0.0.0 (/home/wan/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.568s] -- Configuring done (0.5s)
+[0.604s] -- Generating done (0.0s)
+[0.617s] -- Build files have been written to: /home/wan/ros2_ws/build/my_cpp_pkg
+[0.651s] [  4%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[0.660s] [ 22%] Built target robot_news_station
+[0.660s] [ 22%] Built target smartphone
+[0.660s] [ 31%] Built target cpp_node
+[0.660s] [ 68%] Built target number_publisher
+[0.660s] [ 68%] Built target add_two_ints_client_no_oop
+[0.660s] [ 68%] Built target add_two_ints_server
+[0.660s] [ 68%] Built target number_counter
+[0.660s] [ 77%] Built target add_two_ints_client
+[0.661s] [ 86%] Built target led_panel
+[0.661s] [ 95%] Built target hardware_status_publisher
+[3.256s] [100%] [32m[1mLinking CXX executable battery[0m
+[3.378s] [100%] Built target battery
+[3.386s] Invoked command in '/home/wan/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/wan/ros2_ws/install/my_robot_interfaces:/home/wan/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wan/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/wan/ros2_ws/build/my_py_pkg:/home/wan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/wan/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[3.393s] Invoking command in '/home/wan/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/wan/ros2_ws/install/my_robot_interfaces:/home/wan/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wan/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/wan/ros2_ws/build/my_py_pkg:/home/wan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/wan/ros2_ws/build/my_cpp_pkg
+[3.398s] -- Install configuration: ""
+[3.398s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[3.398s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[3.398s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[3.399s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[3.399s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[3.399s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[3.399s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[3.399s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[3.399s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher
+[3.399s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel
+[3.400s] -- Installing: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/battery
+[3.400s] -- Set non-toolchain portion of runtime path of "/home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/battery" to ""
+[3.400s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[3.400s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[3.400s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[3.401s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[3.401s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[3.401s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[3.401s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[3.401s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[3.401s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[3.401s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[3.401s] -- Installing: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[3.401s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[3.401s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[3.401s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[3.401s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[3.402s] Invoked command in '/home/wan/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/wan/ros2_ws/install/my_robot_interfaces:/home/wan/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wan/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/wan/ros2_ws/build/my_py_pkg:/home/wan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/wan/ros2_ws/build/my_cpp_pkg

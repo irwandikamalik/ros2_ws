@@ -1,0 +1,65 @@
+[0.013s] Invoking command in '/home/wan/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/wan/ros2_ws/install/my_robot_interfaces:/home/wan/ros2_ws/install/my_robot_bringup:/home/wan/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wan/ros2_ws/install/turtlesim_catch_them_all:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wan/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/wan/ros2_ws/build/turtlesim_catch_them_all:/home/wan/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/wan/ros2_ws/build/my_py_pkg:/home/wan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/wan/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.173s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.233s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.269s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.277s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.288s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.301s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.374s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.377s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.440s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.505s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.555s] -- Found my_robot_interfaces: 0.0.0 (/home/wan/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.648s] -- Configuring done (0.6s)
+[0.696s] -- Generating done (0.0s)
+[0.707s] -- Build files have been written to: /home/wan/ros2_ws/build/my_cpp_pkg
+[0.761s] [ 40%] Built target add_two_ints_client_no_oop
+[0.761s] [ 40%] Built target smartphone
+[0.761s] [ 40%] Built target robot_news_station
+[0.761s] [ 40%] Built target number_publisher
+[0.761s] [ 40%] [32mBuilding CXX object CMakeFiles/led_panel.dir/src/led_panel.cpp.o[0m
+[0.762s] [ 50%] Built target number_counter
+[0.762s] [ 59%] Built target cpp_node
+[0.762s] [ 68%] Built target add_two_ints_client
+[0.763s] [ 72%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[0.763s] [ 81%] Built target add_two_ints_server
+[0.766s] [ 86%] [32mBuilding CXX object CMakeFiles/hardware_status_publisher.dir/src/hardware_status_publisher.cpp.o[0m
+[4.177s] [ 90%] [32m[1mLinking CXX executable battery[0m
+[4.330s] [ 90%] Built target battery
+[4.516s] [ 95%] [32m[1mLinking CXX executable hardware_status_publisher[0m
+[4.663s] [ 95%] Built target hardware_status_publisher
+[5.090s] [100%] [32m[1mLinking CXX executable led_panel[0m
+[5.212s] [100%] Built target led_panel
+[5.221s] Invoked command in '/home/wan/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/wan/ros2_ws/install/my_robot_interfaces:/home/wan/ros2_ws/install/my_robot_bringup:/home/wan/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wan/ros2_ws/install/turtlesim_catch_them_all:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wan/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/wan/ros2_ws/build/turtlesim_catch_them_all:/home/wan/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/wan/ros2_ws/build/my_py_pkg:/home/wan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/wan/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[5.222s] Invoking command in '/home/wan/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/wan/ros2_ws/install/my_robot_interfaces:/home/wan/ros2_ws/install/my_robot_bringup:/home/wan/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wan/ros2_ws/install/turtlesim_catch_them_all:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wan/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/wan/ros2_ws/build/turtlesim_catch_them_all:/home/wan/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/wan/ros2_ws/build/my_py_pkg:/home/wan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/wan/ros2_ws/build/my_cpp_pkg
+[5.227s] -- Install configuration: ""
+[5.228s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[5.228s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[5.229s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[5.229s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[5.230s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[5.230s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[5.231s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[5.231s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[5.232s] -- Installing: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher
+[5.233s] -- Set non-toolchain portion of runtime path of "/home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher" to ""
+[5.233s] -- Installing: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel
+[5.235s] -- Set non-toolchain portion of runtime path of "/home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel" to ""
+[5.235s] -- Installing: /home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/battery
+[5.236s] -- Set non-toolchain portion of runtime path of "/home/wan/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/battery" to ""
+[5.236s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[5.236s] -- Installing: /home/wan/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[5.236s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[5.236s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[5.236s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[5.236s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[5.236s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[5.236s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[5.236s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[5.236s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[5.237s] -- Installing: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[5.237s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[5.237s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[5.237s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[5.237s] -- Up-to-date: /home/wan/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[5.238s] Invoked command in '/home/wan/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/wan/ros2_ws/install/my_robot_interfaces:/home/wan/ros2_ws/install/my_robot_bringup:/home/wan/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wan/ros2_ws/install/turtlesim_catch_them_all:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wan/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/wan/ros2_ws/build/turtlesim_catch_them_all:/home/wan/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/wan/ros2_ws/build/my_py_pkg:/home/wan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/wan/ros2_ws/build/my_cpp_pkg

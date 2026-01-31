@@ -1,0 +1,7 @@
+[01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid NumberCounterNode::[01;32m[KcallbackNumber[m[K(example_interfaces::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:23:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcounter_[m[K’ is used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized-Wuninitialized]8;;[m[K]
+   23 |       [01;35m[Kcounter_ = counter_ + msg->data[m[K;
+      |       [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:22:15:[m[K [01;36m[Knote: [m[K‘[01m[Kcounter_[m[K’ was declared here
+   22 |       int64_t [01;36m[Kcounter_[m[K;
+      |               [01;36m[K^~~~~~~~[m[K

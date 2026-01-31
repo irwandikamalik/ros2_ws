@@ -1,0 +1,18 @@
+[01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:26:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+   26 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:25:69:[m[K [01;31m[Kerror: [m[Kbit-field ‘[01m[Kserver_[m[K’ with non-integral type ‘[01m[Krclcpp::Service<example_interfaces::srv::AddTwoInts>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Service<example_interfaces::srv::AddTwoInts> >[m[K’}
+   25 |     rclcpp::Service<example_interfaces::srv::AddTwoInts>::SharedPtr [01;31m[Kserver_[m[K:
+      |                                                                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:25:76:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   25 |     rclcpp::Service<example_interfaces::srv::AddTwoInts>::SharedPtr server_[01;31m[K:[m[K
+      |                                                                            [01;31m[K^[m[K
+      |                                                                             [32m[K;[m[K
+[01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:[m[K In constructor ‘[01m[KAddTwoIntsServer::[01;32m[KAddTwoIntsServer[m[K()[m[K’:
+[01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver_[m[K’ was not declared in this scope
+   11 |         [01;31m[Kserver_[m[K = this->create_service<example_interfaces::srv::AddTwoInts>(
+      |         [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/add_two_ints_server.dir/build.make:76: CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/add_two_ints_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

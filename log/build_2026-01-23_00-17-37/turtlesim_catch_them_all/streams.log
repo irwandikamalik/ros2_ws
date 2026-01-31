@@ -1,0 +1,22 @@
+[0.735s] Invoking command in '/home/wan/ros2_ws/src/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/wan/ros2_ws/install/my_robot_interfaces:/home/wan/ros2_ws/install/my_robot_bringup:/home/wan/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wan/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wan/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/wan/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/wan/ros2_ws/build/turtlesim_catch_them_all:/home/wan/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/wan/ros2_ws/build/my_py_pkg:/home/wan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/wan/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/wan/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed install_data
+[0.922s] running egg_info
+[0.936s] writing ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/PKG-INFO
+[0.936s] writing dependency_links to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/dependency_links.txt
+[0.936s] writing entry points to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/entry_points.txt
+[0.936s] writing requirements to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/requires.txt
+[0.936s] writing top-level names to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/top_level.txt
+[0.965s] reading manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.965s] writing manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.965s] running build
+[0.965s] running build_py
+[0.965s] running install
+[0.971s] running install_lib
+[0.985s] running install_data
+[0.985s] running install_egg_info
+[1.000s] removing '/home/wan/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages/turtlesim_catch_them_all-0.0.0-py3.12.egg-info' (and everything under it)
+[1.000s] Copying ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info to /home/wan/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages/turtlesim_catch_them_all-0.0.0-py3.12.egg-info
+[1.001s] running install_scripts
+[1.098s] Installing turtle_controller script to /home/wan/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[1.098s] Installing turtle_spawner script to /home/wan/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[1.098s] writing list of installed files to '/home/wan/ros2_ws/build/turtlesim_catch_them_all/install.log'
+[1.129s] Invoked command in '/home/wan/ros2_ws/src/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/wan/ros2_ws/install/my_robot_interfaces:/home/wan/ros2_ws/install/my_robot_bringup:/home/wan/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wan/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wan/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/wan/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/wan/ros2_ws/build/turtlesim_catch_them_all:/home/wan/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/wan/ros2_ws/build/my_py_pkg:/home/wan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/wan/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/wan/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[0.009s] Invoking command in '/home/wan/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wan/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.057s] [ 18%] Built target robot_news_station
+[0.057s] [ 43%] Built target cpp_node
+[0.057s] [ 50%] Built target number_counter
+[0.057s] [ 50%] Built target add_two_ints_client_no_oop
+[0.058s] [ 75%] Built target smartphone
+[0.058s] [ 75%] Built target add_two_ints_server
+[0.058s] [ 87%] Built target number_publisher
+[0.064s] [ 93%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[1.548s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.548s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[1.548s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[1.548s]                  from [01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:1[m[K:
+[1.548s] [01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsClientNode::[01;32m[KcallbackCallAddTwoInts[m[K(rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedFuture)[m[K’:
+[1.548s] [01m[K/home/wan/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:34:60:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope
+[1.548s]    34 |       RCLCPP_INFO(this->get_logger(), "%d + %d = %d", (int)[01;31m[Krequest[m[K->a, (int)request->b, (int)response->sum);
+[1.548s]       |                                                            [01;31m[K^~~~~~~[m[K
+[2.175s] gmake[2]: *** [CMakeFiles/add_two_ints_client.dir/build.make:76: CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o] Error 1
+[2.175s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/add_two_ints_client.dir/all] Error 2
+[2.175s] gmake: *** [Makefile:146: all] Error 2
+[2.177s] Invoked command in '/home/wan/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wan/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wan/ros2_ws/build/my_cpp_pkg -- -j12 -l12
